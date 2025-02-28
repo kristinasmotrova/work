@@ -158,9 +158,9 @@ overflow: hidden;
 
   float:left;
 
-  width: 100%;
+  width: 140%;
 
-  height: 300px;
+  height: 15px;
 
   background:pink;
 
@@ -169,15 +169,15 @@ overflow: hidden;
 
   float:left;
 
-  width: 100%;
+  width: 140%;
 
-  height: 300px;
+  height: 15px;
 
   background:red;
 
 }
 footer {
-width: 100%;
+width: 49%;
   margin-left: 110px;
 background: blue;
 

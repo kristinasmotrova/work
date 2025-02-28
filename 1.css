@@ -1,4 +1,4 @@
- body {
+body {
 
   background-color: transparent; 
 
@@ -149,9 +149,9 @@ nav ul li:hover ul {
 }
 
 #frameset {
- width: 49%;
-  margin-left: 110px;
-overflow: hidden;
+	overflow: hidden;
+ width: 145%;
+  margin-left: 10px;
 
 }
 .right {
@@ -177,8 +177,8 @@ overflow: hidden;
 
 }
 footer {
-width: 49%;
-  margin-left: 110px;
+width: 145%;
+  margin-left: 10px;
 background: blue;
 
 color: white;

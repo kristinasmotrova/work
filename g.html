@@ -1,0 +1,196 @@
+<html lang="en">
+<head>
+<style> 
+* {
+     box-sizing: border-box;
+}
+
+body {
+     background: #1c1e22;
+     color: #fff;
+}
+.support-warning {
+     background: #ccb11c;
+     color: #000;
+     display: block;
+     font-family: 'Raleway', sans-serif;
+     font-weight: 700;
+     opacity: 0.95;
+     padding: 3rem;
+     position: fixed;
+     text-align: center;
+     top: 0;
+     left: 0;
+     width: 100%;
+     z-index: 5;
+}
+
+.support-warning a {
+     color: inherit;
+}
+.l-grid {
+     display: flex;
+     flex-wrap: wrap;
+}
+
+.l-grid > .l-grid__item {
+     flex: 1 0 auto;
+}
+
+.l-grid--4x4 > .l-grid__item {
+     width: 25%;
+}
+
+@supports(display: grid) {
+     .support-warning {
+          display: none;
+     }
+	  .l-grid--4x4 > .l-grid__item {
+         width: auto;
+     }
+     
+     .l-grid {
+          display: grid;
+     }
+}
+.l-grid--4x4 {
+     grid-template-columns: repeat(4, 1fr);
+     grid-template-rows: repeat(3, minmax(13rem, 1fr));
+}
+
+.l-span-column-2 {
+     grid-column-start: span 2;
+}
+
+.l-span-row-2 {
+     grid-row-start: span 2;
+}
+
+.l-full-height {
+     min-height: 100vh;
+}
+
+.align-center {
+     align-items: center;
+     justify-content: center;
+}
+
+.content {
+     padding: 3.5rem;
+     max-width: 400px;
+}
+.heading {
+     font-family: '?', serif;
+     font-size: 1.5rem;
+     font-weight: 700;
+     line-height: 1.2;
+     margin-bottom: 1rem;
+}
+
+.description {
+     font-family: '?', sans-serif;
+     font-size: 1rem;
+     line-height: 1.5;
+}
+.img-background {
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center center;
+     color: #fff;
+}
+.img-background--sea {
+     background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://raw.githubusercontent.com/kristinasmotrova/work/refs/heads/main/sea.jpg');
+}
+
+.img-background--wave {
+     background-image: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://raw.githubusercontent.com/kristinasmotrova/work/refs/heads/main/wave.jpg');
+}
+
+.img-background--horizon {
+     background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('https://raw.githubusercontent.com/kristinasmotrova/work/refs/heads/main/horizon.jpg');
+     background-size: cover;
+     background-repeat: no-repeat;
+     color: #fff;
+}
+.theme-blue {
+	background: blue;
+	color: white;
+}
+.theme-pink {
+	background: pink;
+	color: black;
+}
+.theme-yellow {
+	background: yellow;
+	color: black;
+}
+</style>
+</head>
+<body>
+<div class="support-warning">
+    Найдите браузер с поддержкой гридов!
+</div>
+<div class="l-grid l-grid--4x4 l-full-height">
+     <div class="theme-blue l-grid__item l-grid align-center l-span-column-2 l-span-row-2">
+          <div class="content">
+          <h2 class="heading">
+               Скучаю по Италии 
+          </h2>
+ <p class="description">Рим - лучший город на Земле.</p>
+          
+          </div>
+     </div>
+	 <div class="img-background img-background--sea align-center l-grid__item l-grid l-span-column-2">
+          <div class="content">
+          <h2 class="heading">
+              Здравствуйте
+          </h2>
+ <p class="description">Я люблю пиццу</p>
+         
+          </div>
+     </div>
+	 <div class="img-background img-background--wave align-center l-grid l-grid__item l-span-column-2">
+           <div class="content">
+          <h2 class="heading">
+               Не знаю, что еще написать
+          </h2>
+ <p class="description">Ciao</p>
+          
+       
+          </div>
+     </div>
+	 <div class="img-background img-background--horizon align-center l-grid l-grid__item l-span-column-2">
+           <div class="content">
+          <h2 class="heading">
+               Buon giorno
+          </h2>
+           <p class="description">Grazi</p>
+          
+          
+          </div>
+     </div>
+	 <div class="theme-pink l-grid l-grid__item align-center">
+           <div class="content">
+          <h2 class="heading">
+               Hello
+          </h2>
+          
+           <p class="description"><a href="https://uni-bge.hu/en"><span style="color: white;">
+		    I miss Hungary so much. There is my University. </span> </a>
+		   
+		   </p>
+		   
+         
+          </div>
+     </div>
+	  <div class="theme-yellow l-grid l-grid__item align-center">
+           <div class="content">
+               <h2 class="heading">
+                    Хочу спать
+                </h2>
+ <p class="description">Погода прелестная</p>
+         
+          </div>
+     </div>
+	 </body>
+	 </html>

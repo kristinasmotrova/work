@@ -42,9 +42,11 @@ gallery {
 }
 .gallery .mainImg i.fa-chevron-left {
   left: 0;
+  color: pink;
 }
 .gallery .mainImg i.fa-chevron-right {
   right: 0;
+  color: pink;
 }
 .gallery .thumbnails {
   list-style: none;

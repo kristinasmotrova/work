@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title> GioGio Vento Auero. Mista </title>
+  <link rel= "stylesheet" href= "https://raw.githack.com/kristinasmotrova/work/refs/heads/main/vstr.css"></link>
+  <link rel= "stylesheet" href= "https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"></link>
+  <link rel= "stylesheet" href= "https://raw.githack.com/kristinasmotrova/work/refs/heads/main/zadanie.css"></link>
+  </head>
+  <body>
+  <div class="container">
+ <div class="row">
+ <section class="card-holder">  
+ <div class="col-md-4 col-sm-6">
+ <div class="card-container manual-flip">
+<div class="card">
+ <div class="front">
+ <div class="cover">
+ <img src="https://raw.githubusercontent.com/kristinasmotrova/work/refs/heads/main/Mista.jpg"> 
+ </div>
+ <div class="content">
+<div class="main">
+<h3 class="name">Name: Guido Mista. Stand: Sex Pistols.</h3>
+</div>
+<div class="footer">
+<button class="btn btn-flip btn-qr" onclick="rotateCard(this)">
+<font color="red"><i class="fa fa-mail-forward"></i>read more...</font></button>
+</div>
+</div>
+</div>
+<div class="back">
+<div class="header">
+Guido Mista (グイード・ミスタ Guīdo Misuta) is a core ally featured in Vento Aureo and a minor character in the Light Novel Purple Haze Feedback.
+  Mista is a member of Passione and by extension Bucciarati's team, who follows Giorno and Bucciarati in their mission to bodyguard Trish Una. 
+  He is a gunslinger and Stand User who shoots down his opponents with the assistance of his Sex Pistols. 
+  Mista comes off as a laid-back teenager, being one of the least serious members of Team Bucciarati, although not as childish as Narancia.
+</div>
+<div class="content"> </div>
+<div class="footer">
+<button class="btn btn-flip" onclick="rotateCard(this)"><font color="black">
+<i class="fa fa-reply"></i>go back</font>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4 col-sm-6">
+ <div class="card-container manual-flip">
+<div class="card">
+ <div class="front">
+ <div class="cover">
+ <img src="https://raw.githubusercontent.com/kristinasmotrova/work/refs/heads/main/giomis.jpg"> 
+ </div>
+ <div class="content">
+<div class="main">
+<h3 class="name">Mista with Giorno shooting to Cioccolata</h3>
+</div>
+<div class="footer">
+<button class="btn btn-flip btn-qr" onclick="rotateCard(this)">
+<font color="blue"><i class="fa fa-mail-forward"></i>read more...</font></button>
+</div>
+</div>
+</div>
+<div class="back">
+<div class="header">
+ While Mista is friendly with every member of his group, he has a privileged relationship with Bucciarati or Giorno. 
+ Like all members of Team Bucciarati, Mista looks up to Bucciarati in all aspects and has ironclad confidence in him, even trusting Bucciarati to overthrow the Boss of Passione not long after the latter had announced his betrayal.
+ In parallel to his admiration for Bruno, Mista builds a partnership with Giorno, being one of the first to realize his talents. 
+ In time, Giorno would become perhaps the closest member of the team to Mista, with the two eventually creating a fruitful combination in battle.
+</div>
+<div class="content"> </div>
+<div class="footer">
+<button class="btn btn-flip" onclick="rotateCard(this)"><font color="black">
+<i class="fa fa-reply"></i>go back</font>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+<script src='https://raw.githack.com/kristinasmotrova/work/refs/heads/main/rep.js'></script>
+<script>
+function rotateCard(btn) {
+  var $card = $(btn).closest('.card-container');
+  console.log($card);
+  if ($card.hasClass('hover')) {
+    $card.removeClass('hover');
+  } else {
+    $card.addClass('hover');
+  }
+}
+</script>
+</body>
+</html>

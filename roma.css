@@ -1,18 +1,18 @@
 header {
-  background-color: #f21818; 
+  background-color: red; 
 }
 footer {
-  background-color: #f111f5; 
+  background-color: red; 
 }
 .title-bar {
-  background-color: #cb8bcc; 
+  background-color: yellow; 
 }
 #wrap {
-  background-color: #3bd1ff; 
+  background-color: yellow; 
 }
 .submenu.menu.vertical {
-  background-color: #32822b; 
+  background-color: red; 
 }
 .row.expanded.callout.secondary {
-  background-color: #eaff00; 
+  background-color: yellow; 
 }

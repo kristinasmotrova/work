@@ -1,0 +1,18 @@
+header {
+  background-color: #f0f0f0; 
+}
+footer {
+  background-color: #333333; 
+}
+.title-bar {
+  background-color: #007bff; 
+}
+#wrap {
+  background-color: #ffffff; 
+}
+.submenu.menu.vertical {
+  background-color: #f5f5f5; 
+}
+.row.expanded.callout.secondary {
+  background-color: #e0e0e0; 
+}

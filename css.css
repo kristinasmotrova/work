@@ -20,7 +20,7 @@ body {
 }
 .animation-layer-1 {
   animation: animation_fg linear 30s infinite both;
-  background: url('work/sloy1.png') 0 100% repeat-x;
+  background: url('https://raw.githubusercontent.com/kristinasmotrova/work/refs/heads/main/sloy1.png') 0 100% repeat-x;
   z-index: 1;
   position: absolute;
   bottom: 0;
@@ -32,7 +32,7 @@ body {
 
 .animation-layer-2 {
   animation: animation_fg linear 55s infinite both;
-  background: url('work/sloy2.png') 0 100% repeat-x;
+  background: url('https://raw.githubusercontent.com/kristinasmotrova/work/refs/heads/main/sloy2.png') 0 100% repeat-x;
   z-index: 1;
   position: absolute;
   bottom: 0;
@@ -44,7 +44,7 @@ body {
 
 .animation-layer-3 {
   animation: animation_fg linear 75s infinite both;
-  background: url('work/sloy3.png') 0 100% repeat-x;
+  background: url('https://raw.githubusercontent.com/kristinasmotrova/work/refs/heads/main/sloy3.png') 0 100% repeat-x;
   z-index: 1;
   position: absolute;
   bottom: 0;
@@ -56,7 +56,7 @@ body {
 
 .animation-layer-4 {
   animation: animation_fg linear 95s infinite both;
-  background: url('work/sloy4.png') 0 100% repeat-x;
+  background: url('https://raw.githubusercontent.com/kristinasmotrova/work/refs/heads/main/sloy4.png') 0 100% repeat-x;
   z-index: 1;
   position: absolute;
   bottom: 0;
@@ -68,7 +68,7 @@ body {
 
 .animation-layer-5 {
   animation: animation_fg linear 120s infinite both;
-  background: url('work/sloy5.png') 0 100% repeat-x;
+  background: url('https://raw.githubusercontent.com/kristinasmotrova/work/refs/heads/main/sloy5.png') 0 100% repeat-x;
   z-index: 1;
   position: absolute;
   bottom: 0;
@@ -78,7 +78,7 @@ body {
   background-size: auto 145px;
 }
 .animation-object-1 {
-  background: url('work/sloy1.png') 0 100% no-repeat;
+  background: url('https://raw.githubusercontent.com/kristinasmotrova/work/refs/heads/main/sloy1.png') 0 100% no-repeat;
   z-index: 1;
   position: absolute;
   bottom: 100px;
@@ -90,7 +90,7 @@ body {
 }
 
 .animation-object-2 {
-  background: url('work/sloy2.png') 0 100% no-repeat;
+  background: url('https://raw.githubusercontent.com/kristinasmotrova/work/refs/heads/main/sloy2.png') 0 100% no-repeat;
   z-index: 1;
   position: absolute;
   bottom: 100px;
@@ -101,7 +101,7 @@ body {
   animation: animation_object2 linear 10s infinite both;
 }
 .animation-object-2-duplicate {
-  background: url('work/sloy2.png') 0 100% no-repeat;
+  background: url('https://raw.githubusercontent.com/kristinasmotrova/work/refs/heads/main/sloy2.png') 0 100% no-repeat;
   z-index: 1;
   position: absolute;
   bottom: 100px;
